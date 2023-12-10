@@ -1,0 +1,19 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main(){
+    cout<< fixed<< setprecision(2);
+    float x,p;
+    cin>> x >> p;
+    // x is the discout
+    // p is the rate after discout 
+    // we havr to find the original the rate of the t shirt
+    
+    // original * (100-x)/100 = p
+    
+    float original = p*100/(100-x);
+    
+    cout<< original ;
+    
+    return 0;
+}
